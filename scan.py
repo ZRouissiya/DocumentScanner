@@ -2,19 +2,13 @@ from pyimagesearch import transform
 from pyimagesearch import imutils
 from scipy.spatial import distance as dist
 from PIL import Image
-from matplotlib.patches import Polygon
-import polygon_interacter as poly_i
 import numpy as np
-import matplotlib.pyplot as plt
 import io
 import base64
 import itertools
 import math
 import cv2
 from pylsd.lsd import lsd
-
-import argparse
-import os
 
 class DocScanner():
     """An image scanner"""
